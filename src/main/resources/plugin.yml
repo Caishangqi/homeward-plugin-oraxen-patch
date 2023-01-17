@@ -1,0 +1,12 @@
+name: HomeWardOraxenPatch
+version: '${version}'
+main: com.caizii.homewardoraxenpatch.HomeWardOraxenPatch
+api-version: 1.19
+prefix: HomewardOraxenPatch
+authors: [ Caizii ]
+description: A plugin used for fix and modify some oraxen features, use in dedicate homeward project
+website: www.caizii.com
+depend:
+  - HomewardLib
+softdepend:
+  - PlaceholderAPI

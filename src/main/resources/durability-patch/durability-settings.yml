@@ -1,0 +1,6 @@
+durability-settings:
+  enable-vanilla-items: true
+  enable-mmoitems-items: true
+  mmoitems-durability-settings:
+    items-type:
+      - TEST
