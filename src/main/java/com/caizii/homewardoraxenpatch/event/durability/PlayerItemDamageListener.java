@@ -12,7 +12,7 @@ public class PlayerItemDamageListener implements Listener {
 
     @EventHandler
     public void onPlayerItemDamage(PlayerItemDamageEvent event) {
-        HomeWardOraxenPatch.customLogger.send("这应该触发伤害事件", event.getPlayer());
+        //HomeWardOraxenPatch.customLogger.send("这应该触发伤害事件", event.getPlayer());
         Damageable itemMeta = (Damageable) event.getPlayer().getInventory().getItemInMainHand().getItemMeta();
         int durabilityLevel = event.getPlayer().getInventory().getItemInMainHand().getItemMeta().getEnchantLevel(Enchantment.DURABILITY);
 
